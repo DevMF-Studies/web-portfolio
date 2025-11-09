@@ -1,0 +1,91 @@
+body{
+    background-color: aqua;
+    color: tan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    padding: 5px;
+    margin-bottom: auto;
+    font-family: cursive;
+    background-color: brown;
+}
+
+main{
+    padding: 5px;
+    font-style: italic;
+    font-family: cursive;
+    color: goldenrod;
+}
+
+footer{
+    padding: 5px;
+    margin-top: auto;
+    color: green;
+}
+
+.project-card {
+    border: 1px solid cadetblue;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: inset;
+    flex: 1 1 300px;
+}
+
+.project-card img {
+    width: 100;
+    transition: 1.5ms;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: auto;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: auto;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 15px;
+    background-color: green;
+    border: 5px;
+    cursor: pointer;
+}
+
+.image-overlay {
+    background-color: rgb(255, 255, 0, 1)
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+
+}
+
+table {
+    width: 100%;
+}
+
+.thead {
+    background-color: red;
+}
+
+.th {
+    padding: 10px;
+}
